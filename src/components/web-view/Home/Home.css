@@ -1,0 +1,248 @@
+body {
+    font-family: 'Roboto', sans-serif;
+   
+  }
+  
+  .body-container {
+    display: flex;
+    opacity: 1; 
+    font-family: 'Roboto', sans-serif;
+   
+  }
+  
+  .body-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 30%; 
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  .body-left h1 {
+    margin: 0 auto;   
+    padding: 20px;
+    font-weight: 500;
+    position: sticky;
+    font-size: 35px;
+    line-height: auto;
+    letter-spacing: 2.5%;
+  }
+
+  
+  .group-names-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-height: 700px;
+    overflow-y: auto;
+  }
+  .group-names-container::-webkit-scrollbar {
+    width: 5px; 
+    
+  }
+  .group-names-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+  
+  .group-item {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    border-radius: 16px;
+ 
+  }
+  
+  .group-item h4 {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    padding: 10px;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 97.7%;
+    letter-spacing: 2%;
+    color: white;
+    font-weight: 500;
+    border-radius: 50%;
+  }
+  
+  
+  .group-item h1 {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 24px;
+    width: 350px;
+    line-height: auto;
+    letter-spacing: 2%;
+    text-transform: capitalize;
+ 
+  }
+  .add-group-btn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    left: 22%;
+    bottom: 10%;
+  }
+  .add-group-icon {
+    position: sticky;
+    width: 100%;
+    height: 100%;
+  }
+  .plus-icon {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+  
+  .body-right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%; 
+  }
+  .selected-group-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .selected-group-header {
+    display: flex;
+    justify-content: start;
+    background-color: #16008b;
+    color: white;
+    flex-basis: 10%;
+  }
+  
+  .selected-group-header p {
+    display: flex;
+    justify-content: center;
+    margin: 10px 15px;
+    padding: 10px;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .selected-group-name {
+    margin: auto 0px;
+    text-transform: capitalize;
+  }
+  
+  .selected-group-messages {
+    flex-basis: 70%;
+    background-color: #DAE5F5;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .message-item {
+    width: 95%;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  
+  .message-item p {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160.2%;
+    letter-spacing: 3.5%;
+  }
+  
+  .message-timestamp {
+    display: flex;
+    justify-content: end;
+    padding: 0 20px 10px 0;
+  }
+  
+  .body-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+    background-color: #16008b;
+    border-radius: 0px;
+    
+  }
+  
+  .body-input {
+    position: absolute;
+    width: 68%;
+    padding: 0.75vh;
+    height: 15%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 1rem;
+    background-color: #ffffff;
+    font-size: 29.82px;
+    font-weight: 400;
+    line-height: auto;
+    letter-spacing: 2%;
+    color: #9A9A9A;
+    
+    
+  }
+  
+  .send-icon {
+    position: absolute;
+    width: 30px;
+    bottom: 50px;
+    right: 50px;
+  }
+  .no-group-selected-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+  }
+  .app-logo {
+    width: 620px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .app-description  {
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 16px;
+    padding-top: 15px;
+    font-weight: 600;
+  }
+  .app-security-info {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 30%;
+  }
+  .lock-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin: auto 0;
+  }
+  .app-title {
+    text-align: center; 
+    font-size: 2rem
+  }
+  

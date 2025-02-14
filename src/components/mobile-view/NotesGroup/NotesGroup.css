@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .notes h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    font-size: 1.725rem;
+  }
+  
+  .group-initial {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    margin-left: 15px;
+    padding: 10px;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 50%;
+  }
+  .group-names {
+    display: flex;
+    flex-direction: column;
+   
+    height: max(350px, 700px);
+    font-size: 1.25rem;
+    overflow-y: auto;
+    font-weight: 500;
+    cursor: pointer;
+    flex-basis: 100%;
+    margin-left: 20px;
+    position: sticky;
+    top: 60px; 
+    z-index: 0; 
+    text-transform: capitalize;
+  }
+  
+  .create-btn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    position: sticky;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    left: 280px;
+    bottom: 24px;
+    border-radius: 50%;
+    right: 25px;
+  }
+  
